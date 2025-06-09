@@ -26,7 +26,7 @@
         "vid": "0xFEED"
     },
     "encoder": {
-        "rotary": [ { "pin_a": "GP23", "pin_b": "GP22" }, ]
+        "rotary": [ { "pin_a": "GP23", "pin_b": "GP22" } ]
     },
     "bootmagic": {
         "enabled": true,
@@ -45,7 +45,7 @@
         },
         "encoder": {
             "right": {
-                "rotary": [ { "pin_a": "GP23", "pin_b": "GP22" }, ]
+                "rotary": [ { "pin_a": "GP23", "pin_b": "GP22" } ]
             }
         },
         "transport": {
