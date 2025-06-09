@@ -121,9 +121,9 @@ void print_status_narrow(void) {
     oled_write_P(PSTR("\n\n"), false);
 
     led_t led_state = host_keyboard_led_state();
-    oled_write_P(led_state.num_lock ? PSTR("NUM ") : PSTR("    "), false);
-    oled_write_P(led_state.caps_lock ? PSTR("CAP ") : PSTR("    "), false);
-    oled_write_P(led_state.scroll_lock ? PSTR("SCR ") : PSTR("    "), false);
+    oled_write_P(led_state.num_lock ? PSTR("NUM\n") : PSTR("\n"), false);
+    oled_write_P(led_state.caps_lock ? PSTR("CAPS\n") : PSTR("\n"), false);
+    oled_write_P(led_state.scroll_lock ? PSTR("SCROLL\n") : PSTR("\n"), false);
 }
 
 bool oled_task_kb(void) {
