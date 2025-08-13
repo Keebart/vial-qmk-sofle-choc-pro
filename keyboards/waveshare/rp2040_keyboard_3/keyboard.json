@@ -1,7 +1,7 @@
 {
     "manufacturer": "Waveshare",
     "keyboard_name": "RP2040-Keyboard-3",
-    "maintainer": "apfohl",
+    "maintainer": "zvecr",
     "url": "https://www.waveshare.com/wiki/RP2040-Keyboard-3",
     "processor": "RP2040",
     "bootloader": "rp2040",
